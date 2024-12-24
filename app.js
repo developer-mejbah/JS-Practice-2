@@ -51,3 +51,12 @@ console.log(ages [6]);
 const birthYear = 2003 ;
 const mejbahMorsalin = ['Mejbah Morsalin', 2024 - birthYear];
 console.log(2024 - birthYear)
+
+const number = [ 200, 650, 400, 300, 45, 56, 12,]
+console.log(number)
+
+number.unshift(100)
+console.log(number)
+
+number.shift()
+console.log(number)
