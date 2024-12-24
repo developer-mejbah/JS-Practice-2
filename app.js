@@ -24,8 +24,12 @@ else if (num3 > num1 && num3 > num1){
 
 // Array
 
-const countries = ['Bangladesh', 'India', 'Pakistan', 'Srilanka', 'Maldives'];
+const countries = ['Bangladesh', 'India', 'Pakistan', 'Srilanka', 'Maldives', 'United States'];
 console.log(countries);
+for (let k = 0; k <= countries.length - 1; k++){
+    console.log(k)
+    console.log(countries[k])
+}
 countries [3] = 'China';
 countries [1] = 'Srilanka';
 countries.push('Russia')
@@ -43,20 +47,53 @@ console.log(fifaRankings);
 const ages = [15, 25, 35, 40, 45, 50, 52, 77, 12, 44, 23];
 // Most Important
 console.log(ages[ages.length - 1]);
-console.log(ages.indexOf(77))
+console.log(ages.indexOf(77));
 
 console.log(ages.length);
 console.log(ages [6]);
 
 const birthYear = 2003 ;
 const mejbahMorsalin = ['Mejbah Morsalin', 2024 - birthYear];
-console.log(2024 - birthYear)
+console.log(2024 - birthYear);
 
-const number = [ 200, 650, 400, 300, 45, 56, 12,]
-console.log(number)
+const number = [ 200, 650, 400, 300, 45, 56, 12,];
+console.log(number);
 
-number.unshift(100)
-console.log(number)
+number.unshift(100);
+console.log(number);
 
-number.shift()
-console.log(number)
+number.shift();
+console.log(number);
+
+// Loop Started
+// for loop & while loop
+// for (initialization; condition ; update){}
+
+// for loop
+let sum = 0;
+for (let i = 1; i <= 15; i++) {
+    console.log(i);
+    sum = sum + i;
+}
+console.log(sum)
+
+let add = 0;
+for (let i = 1; i <= 20; i = i + 2){
+    console.log(i);
+    add = add + i;
+}
+console.log(add);
+
+added = 0;
+for (let i = 2; i <= 20; i = i + 2){
+    console.log(i);
+    added = added + i;
+}
+console.log(added)
+
+// while loop
+let h = 0;
+while (h <= 10){
+    console.log(h);
+    h++;
+}
